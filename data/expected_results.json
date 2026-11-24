@@ -1,0 +1,198 @@
+{
+  "currency": "EUR",
+  "source_rows": 32,
+  "adf_rows_read": 32,
+  "adf_rows_copied": 32,
+  "batch_bronze_rows": 32,
+  "batch_silver_rows": 24,
+  "batch_gold_rows": 4,
+  "batch_total_quantity": 48,
+  "batch_total_revenue": "411.40",
+  "batch_by_store": [
+    {
+      "StoreID": "S01",
+      "StoreName": "Paris Centre",
+      "Region": "Ile-de-France",
+      "TransactionCount": 6,
+      "TotalQuantity": 12,
+      "TotalRevenue": "67.50"
+    },
+    {
+      "StoreID": "S02",
+      "StoreName": "Versailles",
+      "Region": "Ile-de-France",
+      "TransactionCount": 6,
+      "TotalQuantity": 12,
+      "TotalRevenue": "138.20"
+    },
+    {
+      "StoreID": "S03",
+      "StoreName": "Lyon Centre",
+      "Region": "Auvergne-Rhone-Alpes",
+      "TransactionCount": 6,
+      "TotalQuantity": 12,
+      "TotalRevenue": "67.50"
+    },
+    {
+      "StoreID": "S04",
+      "StoreName": "Grenoble",
+      "Region": "Auvergne-Rhone-Alpes",
+      "TransactionCount": 6,
+      "TotalQuantity": 12,
+      "TotalRevenue": "138.20"
+    }
+  ],
+  "stream": {
+    "event_count": 24,
+    "bronze_rows": 24,
+    "unique_sale_ids": 24,
+    "gold_rows": 12,
+    "total_quantity": 48,
+    "total_revenue": "411.40",
+    "windows": [
+      {
+        "store_id": "S01",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "12.00"
+      },
+      {
+        "store_id": "S01",
+        "window_start": "2026-10-01T08:01:00Z",
+        "window_end": "2026-10-01T08:02:00Z",
+        "transaction_count": 2,
+        "total_quantity": 4,
+        "total_revenue": "26.25"
+      },
+      {
+        "store_id": "S01",
+        "window_start": "2026-10-01T08:02:00Z",
+        "window_end": "2026-10-01T08:03:00Z",
+        "transaction_count": 2,
+        "total_quantity": 5,
+        "total_revenue": "29.25"
+      },
+      {
+        "store_id": "S02",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 5,
+        "total_revenue": "49.20"
+      },
+      {
+        "store_id": "S02",
+        "window_start": "2026-10-01T08:01:00Z",
+        "window_end": "2026-10-01T08:02:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "43.90"
+      },
+      {
+        "store_id": "S02",
+        "window_start": "2026-10-01T08:02:00Z",
+        "window_end": "2026-10-01T08:03:00Z",
+        "transaction_count": 2,
+        "total_quantity": 4,
+        "total_revenue": "45.10"
+      },
+      {
+        "store_id": "S03",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 4,
+        "total_revenue": "26.25"
+      },
+      {
+        "store_id": "S03",
+        "window_start": "2026-10-01T08:01:00Z",
+        "window_end": "2026-10-01T08:02:00Z",
+        "transaction_count": 2,
+        "total_quantity": 5,
+        "total_revenue": "29.25"
+      },
+      {
+        "store_id": "S03",
+        "window_start": "2026-10-01T08:02:00Z",
+        "window_end": "2026-10-01T08:03:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "12.00"
+      },
+      {
+        "store_id": "S04",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "43.90"
+      },
+      {
+        "store_id": "S04",
+        "window_start": "2026-10-01T08:01:00Z",
+        "window_end": "2026-10-01T08:02:00Z",
+        "transaction_count": 2,
+        "total_quantity": 4,
+        "total_revenue": "45.10"
+      },
+      {
+        "store_id": "S04",
+        "window_start": "2026-10-01T08:02:00Z",
+        "window_end": "2026-10-01T08:03:00Z",
+        "transaction_count": 2,
+        "total_quantity": 5,
+        "total_revenue": "49.20"
+      }
+    ]
+  },
+  "demo_stream": {
+    "event_count": 8,
+    "bronze_rows": 8,
+    "unique_sale_ids": 8,
+    "gold_rows": 4,
+    "total_quantity": 15,
+    "total_revenue": "131.35",
+    "windows": [
+      {
+        "store_id": "S01",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "12.00"
+      },
+      {
+        "store_id": "S02",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 5,
+        "total_revenue": "49.20"
+      },
+      {
+        "store_id": "S03",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 4,
+        "total_revenue": "26.25"
+      },
+      {
+        "store_id": "S04",
+        "window_start": "2026-10-01T08:00:00Z",
+        "window_end": "2026-10-01T08:01:00Z",
+        "transaction_count": 2,
+        "total_quantity": 3,
+        "total_revenue": "43.90"
+      }
+    ]
+  },
+  "source_sha256": {
+    "sales_batch_final.csv": "23ed6db90740d3237c70f40716aa480e41b21a8d572d56f760c7f0448b09b905",
+    "products.csv": "0798649c3f5fe2a19d1c996c6b54c1b3779132b7a918030e5ac2fd85e8699cc1",
+    "stores.csv": "25b688da14aad8b9b26c6387b20466a6cf82254ee2c645f8eca7c2de81e89c71"
+  }
+}
